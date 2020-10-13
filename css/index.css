@@ -15,3 +15,13 @@ header .spot li:first-child:after { display: none;}
 header .spot li a { display: block; height: 81px; padding: 0 10px; line-height: 81px; color: #333; font-size: 14px;}
 header .spot li a:hover { text-decoration: underline;}
 header .spot li:last-child a { padding-right: 0; }
+
+.visual { position: relative; padding: 0 50px;}
+
+.visual .prev,
+.visual .next { display: block; position: absolute; top: 50%; transform: translateY(-50%); width: 25px; height: 47px; background: url(../images/sp_com.png) no-repeat; color: transparent;}
+.visual .prev { left: 82px; background-position: -128px -60px;}
+.visual .next { right: 82px; background-position: -158px -60px;}
+
+.visual .con > div { height: 640px;}
+.visual .con .slide { background: url(../images/bg_main02.jpg) no-repeat center}
