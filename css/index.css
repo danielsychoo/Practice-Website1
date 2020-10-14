@@ -23,5 +23,25 @@ header .spot li:last-child a { padding-right: 0; }
 .visual .prev { left: 82px; background-position: -128px -60px;}
 .visual .next { right: 82px; background-position: -158px -60px;}
 
+.visual .control { position: absolute; left: 0; bottom: 55px; width: 100%; text-align: center;}
+.visual .control > div { display: inline-block; position: relative; padding: 0 45px 0 0;}
+.visual .control > div > div { position: absolute; right: 0}
+.visual .control > div > div a { overflow: hidden; display: inline-block; margin: 0 0 0 7px; width: 8px; height: 9px; background: url(../images/sp_com.png) no-repeat; opacity: 0.5;}
+.visual .control > div > div a.on { opacity: 1}
+.visual .control > div > div a.play { background-position: -108px -72px;}
+.visual .control > div > div a.pause { background-position: -108px -60px;}
+.visual .control a { color: transparent;}
+
+.visual .control ul { font-size: 0; position: relative; top: -6px;}
+.visual .control ul,
+.visual .control li{ display: inline-block; padding: 0 3px;}
+.visual .control li.on a { background: #fff;}
+.visual .control li a { content: ""; display: block; width: 50px; height: 3px; background: rgba(255, 255, 255, 0.5); border: none;}
+
 .visual .con > div { height: 640px;}
-.visual .con .slide { background: url(../images/bg_main02.jpg) no-repeat center}
+.visual .con .slide { background: url(../images/bg_main02.jpg) no-repeat center; color: #fff; font-size: 20px;}
+.visual .con .slide .text { position: relative; top: 50%; transform: translateY(-50%); left: 41%;}
+
+/* 자연을 닮은 친환경 바닥재 해결해야함 */
+
+.visual .con .slide p { font-size: 30px;}
