@@ -1,4 +1,6 @@
-header {text-align: center; height: 81px;}
+body { min-width: 1280px;}
+
+header { position: relative; text-align: center; height: 81px;}
 header h1 { position: absolute; left: 50px; top: 0; padding: 14px 0 0;}
 header h1 a{ display: block; width: 114px; height: 48px; color: transparent; background: url(../images/sp_com.png) no-repeat -296px 0;}
 
