@@ -39,9 +39,7 @@ header .spot li:last-child a { padding-right: 0; }
 .visual .control li a { content: ""; display: block; width: 50px; height: 3px; background: rgba(255, 255, 255, 0.5); border: none;}
 
 .visual .con > div { height: 640px;}
-.visual .con .slide { background: url(../images/bg_main02.jpg) no-repeat center; color: #fff; font-size: 20px;}
-.visual .con .slide .text { position: relative; top: 50%; transform: translateY(-50%); left: 41%;}
-
-/* 자연을 닮은 친환경 바닥재 해결해야함 */
-
-.visual .con .slide p { font-size: 30px;}
+.visual .con .slide { background: url(../images/bg_main02.jpg) no-repeat center; color: #fff;}
+.visual .con .slide .text { display: inline-block; position: absolute; top: 50%; left: 565px; transform: translateY(-50%);}
+.visual .con .slide .text .texta { display: inline-block; float: left; font-size: 26px; font-weight: 300; padding: 3px 4px 0 0;}
+.visual .con .slide .text .textb { display: inline-block; float: right; font-size: 30px; font-weight: bold; padding: 0 0 0 4px;}
