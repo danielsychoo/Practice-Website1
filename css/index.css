@@ -40,6 +40,6 @@ header .spot li:last-child a { padding-right: 0; }
 
 .visual .con > div { height: 640px;}
 .visual .con .slide { background: url(../images/bg_main02.jpg) no-repeat center; color: #fff;}
-.visual .con .slide .text { display: inline-block; position: absolute; top: 50%; left: 565px; transform: translateY(-50%);}
+.visual .con .slide .text { display: inline-block; position: absolute; top: 297px; left: 50%; transform: translateX(-50%);}
 .visual .con .slide .text .texta { display: inline-block; float: left; font-size: 26px; font-weight: 300; padding: 3px 4px 0 0;}
 .visual .con .slide .text .textb { display: inline-block; float: right; font-size: 30px; font-weight: bold; padding: 0 0 0 4px;}
