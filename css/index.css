@@ -20,26 +20,6 @@ header .spot li:last-child a { padding-right: 0; }
 
 .visual { position: relative; padding: 0 50px;}
 
-.visual .prev,
-.visual .next { display: block; position: absolute; top: 50%; transform: translateY(-50%); width: 25px; height: 47px; background: url(../images/sp_com.png) no-repeat; color: transparent;}
-.visual .prev { left: 82px; background-position: -128px -60px;}
-.visual .next { right: 82px; background-position: -158px -60px;}
-
-.visual .control { position: absolute; left: 0; bottom: 55px; width: 100%; text-align: center;}
-.visual .control > div { display: inline-block; position: relative; padding: 0 45px 0 0;}
-.visual .control > div > div { position: absolute; right: 0}
-.visual .control > div > div a { overflow: hidden; display: inline-block; margin: 0 0 0 7px; width: 8px; height: 9px; background: url(../images/sp_com.png) no-repeat; opacity: 0.5;}
-.visual .control > div > div a.on { opacity: 1}
-.visual .control > div > div a.play { background-position: -108px -72px;}
-.visual .control > div > div a.pause { background-position: -108px -60px;}
-.visual .control a { color: transparent;}
-
-.visual .control ul { font-size: 0; position: relative; top: -6px;}
-.visual .control ul,
-.visual .control li{ display: inline-block; padding: 0 3px;}
-.visual .control li.on a { background: #fff;}
-.visual .control li a { content: ""; display: block; width: 50px; height: 3px; background: rgba(255, 255, 255, 0.5); border: none;}
-
 .visual .con > div { height: 640px;}
 .visual .con .slide { background: url(../images/bg_main02.jpg) no-repeat center; color: #fff;}
 .visual .con .slide .text { display: inline-block; position: absolute; top: 297px; left: 50%; transform: translateX(-50%);}
@@ -66,3 +46,24 @@ header .spot li:last-child a { padding-right: 0; }
 .product li:nth-child(4) a:hover:before { background-position: -220px -185px;}
 .product li:nth-child(5) a:hover:before { background-position: -292px -183px;}
 .product li:nth-child(6) a:hover:before { background-position: -363px -184px;}
+
+/* slide 공통 */
+.slide .prev,
+.slide .next { display: block; position: absolute; top: 50%; transform: translateY(-50%); width: 25px; height: 47px; background: url(../images/sp_com.png) no-repeat; color: transparent;}
+.slide .prev { left: 82px; background-position: -128px -60px;}
+.slide .next { right: 82px; background-position: -158px -60px;}
+
+.slide .control { position: absolute; left: 0; bottom: 55px; width: 100%; text-align: center;}
+.slide .control > div { display: inline-block; position: relative; padding: 0 45px 0 0;}
+.slide .control > div > div { position: absolute; right: 0}
+.slide .control > div > div a { overflow: hidden; display: inline-block; margin: 0 0 0 7px; width: 8px; height: 9px; background: url(../images/sp_com.png) no-repeat; opacity: 0.5;}
+.slide .control > div > div a.on { opacity: 1}
+.slide .control > div > div a.play { background-position: -108px -72px;}
+.slide .control > div > div a.pause { background-position: -108px -60px;}
+.slide .control a { color: transparent;}
+
+.slide .control ul { font-size: 0; position: relative; top: -6px;}
+.slide .control ul,
+.slide .control li{ display: inline-block; padding: 0 3px;}
+.slide .control li.on a { background: #fff;}
+.slide .control li a { content: ""; display: block; width: 50px; height: 3px; background: rgba(255, 255, 255, 0.5); border: none;}
