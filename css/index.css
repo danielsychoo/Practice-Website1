@@ -72,20 +72,23 @@ header .spot li:last-child a { padding-right: 0; }
 
 
 .blog { height: 770px; background: #f2f0ed; }
-.blog h2 { font-size: 28px; color: #000; text-align: center; padding: 50px 0 49px;}
 
+.blog > ul { display: inline-block; overflow: hidden;}
+
+.blog h2 { font-size: 28px; color: #000; text-align: center; padding: 50px 0 49px;}
 .blog img { width: 280px; height: 280px;}
-.blog .bottom { position: relative; width: 280px; height: 273px; background: #fff;}
-.blog .bottom h3 { overflow: hidden; font-size: 17px; color: #000; text-align: center; padding: 32px 0 0; letter-spacing: -1.5px;}
-.blog .bottom > div { padding: 45px 40px 0 28px;}
-.blog .bottom .conleft { position: absolute; float: left; font-size: 13px; font-weight: bold;}
-.blog .bottom .conright { position: absolute; left: 96px; padding: 0 40px 0 0; float: right; font-size: 15px; overflow-wrap: break-word;}
+.blog .bottom { position: relative; width: 280px; height: 273px; background: #fff; overflow: hidden;}
+.blog .bottom h3 { overflow: clip; font-size: 17px; color: #000; text-align: left; padding: 32px 30px 0; letter-spacing: -1.5px; overflow-wrap: break-word;}
+.blog .bottom > div { position: relative; top:45px; padding: 0px 40px 0 28px;}
+.blog .bottom .conleft { position: absolute; float: left; font-size: 13px; font-weight: 500;}
+.blog .bottom .conright { position: absolute; left: 96px; padding: 0 40px 0 0; float: right; font-size: 15px; font-weight: 300; overflow-wrap: break-word;}
 .blog .bottom li { letter-spacing: -1.5px;}
 .blog .bottom .conleft li { padding: 4px 0;}
 .blog .bottom .conright li { padding: 3px 0;}
 
 .blog .bottom h3:hover,
 .blog .bottom .conright:hover { text-decoration: underline;}
+
 
 /* slide 공통 */
 .slide .prev,
