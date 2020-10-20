@@ -71,7 +71,7 @@ header .spot li:last-child a { padding-right: 0; }
 .magazine.slide .next { right: 50%; margin: 26px -640px 0 0; background-position: -350px -544px;}
 
 
-.blog { height: 770px; background: #f2f0ed; }
+.blog { position: relative; height: 770px; background: #f2f0ed; }
 .blog .detail { padding: 0 10px;}
 
 .blog > ul { display: inline-block; overflow: hidden;}
@@ -90,6 +90,14 @@ header .spot li:last-child a { padding-right: 0; }
 
 .blog .bottom h3:hover,
 .blog .bottom .conright:hover { text-decoration: underline;}
+
+.blog.slide .control { bottom: 35px;}
+.blog.slide .control li.on a { background: #2d5b79;}
+.blog.slide .control li a { background: #d6d8d6;}
+.blog.slide .control > div {padding: 0 0 0 9px;}
+
+.blog.slide .prev { left: 50%; margin: 26px 0 0 -662px; background-position: -320px -544px;}
+.blog.slide .next { right: 50%; margin: 26px -662px 0 0; background-position: -350px -544px;}
 
 
 /* slide 공통 */
